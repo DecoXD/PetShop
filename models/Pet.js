@@ -29,3 +29,4 @@ const Pet = mongoose.model('Pet',new Schema({
 },
 {timestamps: true}
 ))
+module.exports = Pet
